@@ -92,7 +92,7 @@ Or add to any MCP-capable client (see [`examples/mcp.json`](examples/mcp.json)):
 { "mcpServers": { "electroop": { "type": "http", "url": "https://electroop-website.netlify.app/mcp" } } }
 ```
 
-Tools: `list_products`, `get_product`, `list_integrations`, `find_solutions`, `get_trust`, `get_entity`. Raw JSON-RPC example: [`examples/mcp-tools-list.sh`](examples/mcp-tools-list.sh).
+Tools: `list_products`, `get_product`, `find_solutions`, `check_integration`, `get_trust_information`, `search_knowledge`. Raw JSON-RPC example: [`examples/mcp-tools-list.sh`](examples/mcp-tools-list.sh).
 
 ## Trust
 
