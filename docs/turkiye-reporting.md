@@ -11,4 +11,4 @@ A short orientation for teams entering the Turkish market or evaluating a platfo
 | **İYS (commercial messaging permission)** | Permission registry for commercial electronic messages | Relay checks consent and İYS permission before every campaign message. |
 | **Card payment at DC chargers** | Card-present payment for drivers without an app | Hermes on Nayax VPOS Touch and PAX IM30/A920 terminals; Hermes Gateway for payment partners. |
 
-Related pages: [Charging Network Management](https://electroop-website.netlify.app/en/products/charging-network-management) · [Hermes](https://electroop-website.netlify.app/en/products/hermes) · [Relay](https://electroop-website.netlify.app/en/products/relay) · [Trust centre](https://electroop-website.netlify.app/en/trust)
+Related pages: [Charging Network Management](https://electroop.io/en/products/charging-network-management) · [Hermes](https://electroop.io/en/products/hermes) · [Relay](https://electroop.io/en/products/relay) · [Trust centre](https://electroop.io/en/trust)

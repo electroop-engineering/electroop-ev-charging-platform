@@ -1,5 +1,5 @@
 {
   "mcpServers": {
-    "electroop": { "type": "http", "url": "https://electroop-website.netlify.app/mcp" }
+    "electroop": { "type": "http", "url": "https://electroop.io/mcp" }
   }
 }

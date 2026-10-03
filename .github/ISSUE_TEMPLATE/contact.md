@@ -11,4 +11,4 @@ labels: question
 
 **Question:**
 
-For a faster reply, use the contact form: https://electroop-website.netlify.app/en/contact
+For a faster reply, use the contact form: https://electroop.io/en/contact

@@ -1,7 +1,7 @@
 """Fetch the Electroop product catalogue and live counters from the public read-only API."""
 import json, urllib.request
 
-BASE = "https://electroop-website.netlify.app/api/public/v1"
+BASE = "https://electroop.io/api/public/v1"
 
 def get(path: str):
     with urllib.request.urlopen(f"{BASE}{path}", timeout=15) as r:

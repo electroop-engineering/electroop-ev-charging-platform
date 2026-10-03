@@ -1,6 +1,6 @@
 # Charger catalogue (598 models and configurations, 81 brands)
 
-Machine-readable copy: [`data/charger-catalogue.json`](../data/charger-catalogue.json). Source: Electroop CPMS device catalogue, 3 October 2026. A catalogue entry means connector, power and OCPP profile are predefined; it is **not** field verification. Filterable version with status column: https://electroop-website.netlify.app/en/device-compatibility
+Machine-readable copy: [`data/charger-catalogue.json`](../data/charger-catalogue.json). Source: Electroop CPMS device catalogue, 3 October 2026. A catalogue entry means connector, power and OCPP profile are predefined; it is **not** field verification. Filterable version with status column: https://electroop.io/en/device-compatibility
 
 | Brand | Model | Variant | kW | AC/DC | Connectors | OCPP |
 |---|---|---|---|---|---|---|

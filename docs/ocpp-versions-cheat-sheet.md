@@ -31,4 +31,4 @@ A practical cheat sheet from running all three versions on one command pipeline 
 - Many "2.0.1-ready" chargers ship with 1.6J active; the switch is a firmware/profile change and may require vendor involvement.
 - Chargers tied to a vendor cloud may only expose OCPP through that cloud; ask the vendor for a direct endpoint or a forwarding option.
 
-More: https://electroop-website.netlify.app/en/technology · Migration guide: https://electroop-website.netlify.app/en/migration
+More: https://electroop.io/en/technology · Migration guide: https://electroop.io/en/migration
