@@ -50,6 +50,15 @@ Every product can be bought on its own. No bundle is required. See [Data and com
 
 Full matrix with verification scope and prerequisites: https://electroop-website.netlify.app/en/integrations
 
+## Open resources in this repository
+
+- [`docs/ocpp-versions-cheat-sheet.md`](docs/ocpp-versions-cheat-sheet.md) — OCPP 1.6J vs 2.0.1 vs 2.1 for operators, with field notes from running all three on one pipeline.
+- [`docs/turkiye-reporting.md`](docs/turkiye-reporting.md) — EPDK, GİB (EŞÜ, ÖKC), e-invoice and İYS obligations for charging networks in Türkiye.
+- [`data/charger-catalogue.json`](data/charger-catalogue.json) — 598 charger models and configurations from 81 brands (brand, model, kW, AC/DC, connectors, OCPP profile); Markdown view in [`docs/charger-catalogue.md`](docs/charger-catalogue.md).
+- [`examples/`](examples) — public API and MCP client examples.
+
+If these are useful, a ⭐ helps other engineers find them.
+
 ## Live operations
 
 The website publishes live, aggregated counters read from the EPDK reporting service of networks running on Electroop CPMS
