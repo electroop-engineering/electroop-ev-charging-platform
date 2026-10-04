@@ -101,12 +101,12 @@ Or add to any MCP-capable client (see [`examples/mcp.json`](examples/mcp.json)):
 { "mcpServers": { "electroop": { "type": "http", "url": "https://electroop.io/mcp" } } }
 ```
 
-Tools: `list_products`, `get_product`, `find_solutions`, `check_integration`, `get_trust_information`, `search_knowledge`, `get_market_summary`, `get_market_statistics`, `get_operator_rankings`, `get_infrastructure` (Türkiye charging-market data from EPDK reports and the station register). Raw JSON-RPC example: [`examples/mcp-tools-list.sh`](examples/mcp-tools-list.sh).
+Tools: `list_products`, `get_product`, `find_solutions`, `check_integration`, `get_trust_information`, `search_knowledge`, `get_market_summary`, `get_market_statistics`, `get_operator_rankings`, `get_infrastructure`, `get_electroop_share` (Türkiye charging-market data from EPDK reports and the station register; operator names normalised to one canonical brand across tools; monthly-report and register socket counts are flagged as non-comparable). Raw JSON-RPC example: [`examples/mcp-tools-list.sh`](examples/mcp-tools-list.sh).
 
 ## Türkiye charging-market data over MCP and API
 
 The same server exposes the Türkiye charging-market dataset derived from EPDK monthly reports and the EPDK station register:
-`get_market_summary`, `get_market_statistics` (21 raw and derived monthly metrics since 2023-06, with definitions), `get_operator_rankings` (top-ten operators, CR3/CR5/CR10) and `get_infrastructure` (per-province and per-operator register counts, licences).
+`get_market_summary`, `get_market_statistics` (21 raw and derived monthly metrics since 2023-06, with definitions), `get_operator_rankings` (top-ten operators, CR3/CR5/CR10) `get_infrastructure` (per-province and per-operator register counts, licences) and `get_electroop_share` (share of EPDK-reported sessions sent through Electroop CPMS, per calendar month, with comparability flags).
 Human-readable version with charts: https://electroop.io/en/charging-market · JSON: `/api/public/v1/market`, `/api/public/v1/infrastructure`. Figures belong to EPDK and TÜİK; derived indicators by Electroop.
 
 ## Trust
